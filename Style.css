@@ -1,0 +1,74 @@
+body {
+  font-family: Arial;
+  background: #0b0b0b;
+  color: white;
+  text-align: center;
+}
+
+.nav button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.page {
+  display: none;
+  padding: 10px;
+}
+
+.hero {
+  background: linear-gradient(90deg, #ff0000, #5500ff);
+  padding: 20px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.card {
+  background: #222;
+  padding: 15px;
+  margin: 10px auto;
+  width: 200px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 10px;
+}
+
+.movie {
+  min-width: 140px;
+  background: #1c1c1c;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.movie img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+#player {
+  width: 320px;
+  height: 180px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .movie {
+    min-width: 120px;
+  }
+
+  #player {
+    width: 90%;
+  }
+}
