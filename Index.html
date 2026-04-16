@@ -1,0 +1,60 @@
+<h1>🎬 GUMFLIX</h1>
+
+<div class="nav">
+  <button onclick="show('home')">🏠 Inicio</button>
+  <button onclick="show('movies')">🎬 Películas</button>
+</div>
+
+<!-- HOME -->
+<div id="home" class="page">
+  <h2>🏠 Inicio</h2>
+
+  <div class="hero">
+    <p>🔥 Bienvenido a tu streaming app</p>
+  </div>
+
+  <div class="card" onclick="show('movies')">
+    🎬 Entrar a Películas
+  </div>
+</div>
+
+<!-- MOVIES -->
+<div id="movies" class="page">
+  <h2>🎬 Películas</h2>
+
+  <div class="row">
+
+    <div class="movie" onclick="playMovie('f8U_WXeFebQ')">
+      <img src="https://img.youtube.com/vi/f8U_WXeFebQ/hqdefault.jpg">
+      <p>Movie 1</p>
+    </div>
+
+    <div class="movie" onclick="playMovie('POjFUws3kfk')">
+      <img src="https://img.youtube.com/vi/POjFUws3kfk/hqdefault.jpg">
+      <p>Movie 2</p>
+    </div>
+
+    <div class="movie" onclick="playMovie('9l9Se-4QbdY')">
+      <img src="https://img.youtube.com/vi/9l9Se-4QbdY/hqdefault.jpg">
+      <p>Movie 3</p>
+    </div>
+
+    <div class="movie" onclick="playMovie('b2V0tbPZ-RE')">
+      <img src="https://img.youtube.com/vi/b2V0tbPZ-RE/hqdefault.jpg">
+      <p>Movie 4</p>
+    </div>
+
+    <div class="movie" onclick="playMovie('cSAHcoECxho')">
+      <img src="https://img.youtube.com/vi/cSAHcoECxho/hqdefault.jpg">
+      <p>Movie 5</p>
+    </div>
+
+    <div class="movie" onclick="playMovie('cfWHgGoV3r8')">
+      <img src="https://img.youtube.com/vi/cfWHgGoV3r8/hqdefault.jpg">
+      <p>Movie 6</p>
+    </div>
+
+  </div>
+
+  <iframe id="player" allowfullscreen></iframe>
+</div>
